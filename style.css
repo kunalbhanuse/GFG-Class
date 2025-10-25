@@ -1,0 +1,18 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+
+
+/* Style for Contact */
+.contact {
+background-color: aqua;
+
+}
