@@ -1,18 +1,114 @@
-h1{
-    font-size: 50px;
-    text-align: center;
-    color: red;
+/* ===== Global Styles ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-p{
-    font-size: 20px;
-    text-align: center;
-    color: blue;
+/* ===== Header & Nav ===== */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
 }
 
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-/* Style for Contact */
+nav a:hover {
+  color: yellow;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: white;
+  color: #0077cc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .btn:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+/* ===== About Section ===== */
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+.about img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* ===== Contact Section ===== */
 .contact {
-background-color: aqua;
+  text-align: center;
+  padding: 40px;
+}
 
+form {
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+  width: 250px;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+/* section */
+
+.section{
+  text-align: center;
 }
