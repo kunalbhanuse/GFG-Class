@@ -183,3 +183,31 @@ switch (colorr) {
   default:
     console.log("Invalid color");
 }
+
+
+// Function calculator
+
+
+function calculator(num1,num2,Input) {
+    switch (Input) {
+        case "add":
+            console.log(num1+num2);
+            break;
+        case "sub":
+            console.log(num1-num2);
+            break;
+        case "mul":
+            console.log(num1*num2);
+            break;
+        case "div":
+            console.log(num1/num2);
+            break;
+    
+        default:
+            console.log("invalid")
+            break;
+    }
+    
+}
+
+calculator(22,22,"add")
