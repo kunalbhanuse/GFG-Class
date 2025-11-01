@@ -30,7 +30,11 @@ nav a{
     margin: auto;
 }
 nav a:hover{
-    color: red;
+    background-color: azure;
+    padding: 0.5px;
+    border-radius: 5px;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
 }
 
 
